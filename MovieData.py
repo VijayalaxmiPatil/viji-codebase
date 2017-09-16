@@ -3,6 +3,7 @@
 #######################################################
 import sys
 import pip
+'''
 if not "random" in sys.modules:
     pip.main(["install", "random"])
 
@@ -11,7 +12,7 @@ if not "lxml" in sys.modules:
 
 if not "requests" in sys.modules:
   pip.main(["install", "requests"])
-
+'''
 import random
 from lxml import html
 import requests
