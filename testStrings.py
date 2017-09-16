@@ -16,7 +16,7 @@ import shutil
 
 class TestStringMethods(unittest.TestCase):
     def test_upper(self):
-        self.assertEqual('FOOL'.upper(), 'FOOl')  # failing test to check its behavior
+        self.assertEqual('FOOL'.upper(), 'FOOL')
         print("completed test_upper test")
 
     def test_isupper(self):
@@ -32,5 +32,4 @@ class TestStringMethods(unittest.TestCase):
             s.split(2)
        
 if __name__ == '__main__':
-    unittest.main(testRunner=xmlrunner.XMLTestRunner(output='test-reports'))
-	#shutil.rmtree('./test-reports')
+    #unittest.main(testRunner=xmlrunner.XMLTestRunner(output='test-reports'))
