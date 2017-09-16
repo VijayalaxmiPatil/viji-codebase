@@ -16,7 +16,7 @@ import shutil
 
 class TestStringMethods(unittest.TestCase):
     def test_upper(self):
-        self.assertEqual('FOOL'.upper(), 'FOOL')  
+        self.assertEqual('FOOL'.upper(), 'FOOl')  # failing test to check its behavior
         print("completed test_upper test")
 
     def test_isupper(self):
