@@ -20,7 +20,7 @@ class TestStringMethods(unittest.TestCase):
         print("completed test_upper test")
 
     def test_isupper(self):
-        self.assertTrue('FOOLy'.isupper())
+        self.assertTrue('FOOL'.isupper())
         self.assertFalse('cool'.isupper())
         print("completed test_isupper test")
 
